@@ -18,5 +18,5 @@ pip install torch
 git clone https://github.com/mt-akar/python-gpu-app.git
 cd python-gpu-app
 sudo docker build -t python-gpu-app .
-sudo docker run --gpus all python-gpu-app
+sudo docker run -d --gpus all python-gpu-app
 ```
